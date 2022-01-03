@@ -1,0 +1,173 @@
+*{
+      box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+   
+}
+.flex-header{
+    display: flex;
+    flex-flow: wrap row;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: rgb(247, 219, 179);
+    align-items: flex-center;
+}
+.flex-header> div{
+    font-size: 20px;
+    margin-top: 15px;
+    margin: 10px;
+}
+.logo{
+    width: 10%;
+    text-align: center;
+}
+.menu{
+    width: 40%;
+    background-color: rgb(187, 226, 228);
+    display: flex; 
+}
+
+.menu ul{
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: row;
+    display: inline-block
+    
+   
+}
+.menu ul li a{
+    padding-left: 1em;
+    cursor: pointer;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: rgb(206, 30, 30);
+}
+
+/* section-1 start*/
+
+#section-1{
+    background-color: rgb(235, 234, 236);
+    overflow: hidden;
+    display: flex;
+    
+    
+}
+
+.flex-part1 h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    
+}
+
+.flex-part1 p{
+   font-size: 15px;
+   font-weight: 600;
+    width: 400px;
+   color: rgb(124, 123, 122);
+   margin-left: 25px;
+   
+}
+button#readmebutton{
+    background-color: rgb(221, 129, 148);
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: rgb(228, 83, 167);
+    margin-left: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+   
+ 
+}
+button#readmebutton:hover{
+    background-color: rgb(144, 85, 238);
+    color: rgb(250, 246, 246);
+
+}
+/* section-1 end*/
+
+/* section-2 start*/
+#section-2{
+    background-color: burlywood;
+}
+
+.imgbox{
+    background-color: rgb(218, 233, 233);
+    text-align: center;
+    border: 2px solid rgb(206, 211, 211);
+    padding-top: 20px;
+    margin-top: 20px; 
+    height: 345px;
+    
+}
+.itemimage img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    
+}
+
+.itemtitle h3{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.itemtitle p{
+    color: rgb(83, 82, 82);
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em; 
+}
+/* section-2 end*/
+/* section-3 start*/
+#section-3{
+    background-color: rgb(238, 147, 165);
+    overflow: hidden;
+}
+#section-3 h1{
+ text-align: center;
+
+}
+/* section-3 start*/
+h1{
+    font-size: 35px;
+    padding: 20px 0;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px;
+}
+
+.c-bg{
+    border: 2px solid rgb(165, 164, 162);
+    height: 320px;
+    width: 260px;
+    background-color: rgb(165, 164, 162);
+}
+.titlepart h3{
+    font-size: 25px;
+    color: rgb(26, 25, 25);
+    margin-left: 25px; 
+    padding-bottom: -10px; 
+}
+.titlepart p{
+    color: rgb(90, 92, 92);
+    font-weight: 400;
+    width: 160px;
+    
+    margin-left: 25px;
+}
